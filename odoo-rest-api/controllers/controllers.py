@@ -32,6 +32,7 @@ def error_response(error, msg):
     }
 
 
+
 class OdooAPI(http.Controller):
     @http.route(
         '/auth/',
